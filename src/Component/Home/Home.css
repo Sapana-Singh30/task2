@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.filter_option {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width:768px) {
+    .filter_option {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}
